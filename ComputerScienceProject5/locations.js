@@ -27,84 +27,84 @@ everything I need to change because I want to make my final project almost perfe
         " your right is pitch black and to your left is a parking lot.";
    locations_0.item = false;  
  
- var locatione_1 = new Location();
-   locatione_1.id = 1;
-   locatione_1.name = "champ1";
-   locatione1.description = "You are outside of Champagnat, with a path up"+
+ var locations_1 = new Location();
+   locations_1.id = 1;
+   locations_1.name = "champ1";
+   locations_1.description = "You are outside of Champagnat, with a path up"+
         " ahead. There is a paper on the floor with numbers on it.";
-   locatione1.item = true; 
+   locations_1.item = true; 
  
- var locatione_2 = new Location();
-   locatione_2.id = 2;
-   locatione_2.name = "champ2";
-   locatione_2.description = "You are at the entrance of Champagnat,"+
+ var locations_2 = new Location();
+   locations_2.id = 2;
+   locations_2.name = "champ2";
+   locations_2.description = "You are at the entrance of Champagnat,"+
         " to your left there are a group of students"+
         " that are telling you to go inside. To your right"+
         " you see some taxis and up ahead is the library.";
-   locatione_2.item = false; 
+   locations_2.item = false; 
  
- var locatione_3 = new Location();
-   locatione_3.id = 3;
-   locatione_3.name = "library1";
-   locatione_3.description = "You are outside the library, go east"+
+ var locations_3 = new Location();
+   locations_3.id = 3;
+   locations_3.name = "library1";
+   locations_3.description = "You are outside the library, go east"+
         " to enter or keep traveling ahead.";
-   locatione_3.item = false; 
+   locations_3.item = false; 
  
- var locatione_4 = new Location();
-   locatione_4.id = 4;
-   locatione_4.name = "library2";
-   locatione_4.description = "You have entered the library so be quiet."+
+ var locations_4 = new Location();
+   locations_4.id = 4;
+   locations_4.name = "library2";
+   locations_4.description = "You have entered the library so be quiet."+
         " There is a back exit if you keep going east but it is"+
         " blocked by a bunch of nerds who just want to have fun.";
-   locatione_4.item = false; 
+   locations_4.item = false; 
  
- var locatione_5 = new Location();
-   locatione_5.id = 5;
-   locatione_5.name = "dorm";
-   locatione_5.description = "You are inside Champagnat with a group of"+
+ var locations_5 = new Location();
+   locations_5.id = 5;
+   locations_5.name = "dorm";
+   locations_5.description = "You are inside Champagnat with a group of"+
         " kids who wanted to show you how awesome their room was"+
         " with black lights and posters. You realize there is a"+
         " glowstick on the bed and that these kids are weirdos.";
-   locatione_5.item = true; 
+   locations_5.item = true; 
  
- var locatione_6 = new Location();
-   locatione_6.id = 6;
-   locatione_6.name = "taxi1";
-   locatione_6.description = "If you keep going east, you can get to the"+
+ var locations_6 = new Location();
+   locations_6.id = 6;
+   locations_6.name = "taxi1";
+   locations_6.description = "If you keep going east, you can get to the"+
         "taxis. There also is an invitation on the floor";
-   locatione_6.item = true; 
+   locations_6.item = true; 
  
- var locatione_7 = new Location();
-   locatione_7.id = 7;
-   locatione_7.name = "river";
-   locatione_7.description = "There is a speedboat on the river, but no keys.";
-   locatione_7.item = false; 
+ var locations_7 = new Location();
+   locations_7.id = 7;
+   locations_7.name = "river";
+   locations_7.description = "There is a speedboat on the river, but no keys.";
+   locations_7.item = false; 
  
- var locatione_8 = new Location();
-   locatione_8.id = 8;
-   locatione_8.name = "parkinglot";
-   locatione_8.description = "You are in the parking lot of Leo Hall."+
+ var locations_8 = new Location();
+   locations_8.id = 8;
+   locations_8.name = "parkinglot";
+   locations_8.description = "You are in the parking lot of Leo Hall."+
         " There is a hammer on the ground and if you keep going"+
         " west, you'll get to the Hudson River.";
-   locatione_8.item = true; 
+   locations_8.item = true; 
  
- var locatione_9 = new Location();
-   locatione_9.id = 9;
-   locatione_9.name = "darkhill1";
-   locatione_9.description = "If you keep going east without seeing anything,"+
+ var locations_9 = new Location();
+   locations_9.id = 9;
+   locations_9.name = "darkhill1";
+   locations_9.description = "If you keep going east without seeing anything,"+
         " things can get dangerous.";
-   locatione_9.item = false; 
+   locations_9.item = false; 
  
- var locatione_10 = new Location();
-   locatione_10.id = 10;
-   locatione_10.name = "darkhill2";
-   locatione_10.description = "You could not see, so you fell to your death,"+
+ var locations_10 = new Location();
+   locations_10.id = 10;
+   locations_10.name = "darkhill2";
+   locations_10.description = "You could not see, so you fell to your death,"+
          " nice job, refresh the page and start over.";
-   locatione_10.item = false; 
+   locations_10.item = false; 
  
- var locatione_11 = new Location();
-   locatione_11.id = 11;
-   locatione_11.name = "bedtime";
-   locatione_11.description = "What are you doing? You cannot sleep when you are hungry!";
-   location11.item = false; 
+ var locations_11 = new Location();
+   locations_11.id = 11;
+   locations_11.name = "bedtime";
+   locations_11.description = "What are you doing? You cannot sleep when you are hungry!";
+   locations_11.item = false; 
  }

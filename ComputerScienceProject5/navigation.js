@@ -72,13 +72,13 @@
     updateDisplay(locations[nextLocation]);
     currentLocation = nextLocation;
     
-    for (var i = 0; i < navButtons.length; i++) {
+    for (var i = 0; i < navBtns.length; i++) {
       var btnDisable = 0;
-      btnDisable = navButtons_switch[currentLocation][i];
+      btnDisable = navBtns_switch[currentLocation][i];
       if (btnDisable === 1) {
-        document.getElementById(navButtons[i]).disabled = true;
+        document.getElementById(navBtns[i]).disabled = true;
       } else {
-        document.getElementById(navButtons[i]).disabled = false;
+        document.getElementById(navBtns[i]).disabled = false;
         }
       }
       } else {
