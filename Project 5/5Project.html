@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>The Hungry Man</title>
+    <style>
+       body {background-color: black;color: yellow;}
+    </style>
+    <script type ="text/javascript" src="5locations.js"></script>
+  </head>
+  <body onload="init()">
+    <h1>THE HUNGRY MAN</h1>
+    <textarea id="taGame" rows="25" cols="80" autocomplete="off"></textarea>
+    <br>
+    
+    <input type = "button" 
+           value = "North" 
+           onClick = "btn_North()"
+	         id = "nn" >
+	         
+    <input type = "button" 
+           value = "South" 
+           onClick = "btn_South()"
+           id = "ss" >
+           
+    <input type = "button" 
+           value = "East" 
+           onClick = "btn_East()"
+           id = "ee" >
+           
+    <input type = "button" 
+           value = "West" 
+           onClick = "btn_West()"
+           id = "ww" >
+      
+    <input type="text" 
+           id="txtCommand" 
+           autocomplete="off">
+      
+    <input type = "button"
+           value = "Go"
+           onClick="clickAway()">
+
+	  <input type = "button"
+		       value = "Inventory"
+		       onClick = "displayItems()" >
+		<br>
+		<br>
+		       
+    <input type = "button" 
+      value = "Score" 
+      onClick = "btn_Score()" >
+    <br>
+    <p>
+      <a href="mailto:Christopher.Traversa1@marist.edu">Contact Me
+      </a>
+	  </p>
+	  <br>
+	  <image src="MapProj4.jpg" width="550" height="450" alt="Map">   
+	 
+ </body>
+</html>
