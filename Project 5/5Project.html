@@ -6,31 +6,33 @@
     <style>
        body {background-color: black;color: yellow;}
     </style>
-    <script type ="text/javascript" src="5locations.js"></script>
+    <script type ="text/javascript" src="FinalLocationsHelp.js"></script>
   </head>
-  <body onload="init()">
+  <body onload ="init()">
     <h1>THE HUNGRY MAN</h1>
-    <textarea id="taGame" rows="25" cols="80" autocomplete="off"></textarea>
+    
+    <textarea id= "taGame" rows="30" cols="90">
+    </textarea>
     <br>
     
     <input type = "button" 
            value = "North" 
-           onClick = "btn_North()"
+           onClick = "move(NORTH)"
 	         id = "nn" >
 	         
     <input type = "button" 
            value = "South" 
-           onClick = "btn_South()"
+           onClick = "move(SOUTH)"
            id = "ss" >
            
     <input type = "button" 
            value = "East" 
-           onClick = "btn_East()"
+           onClick = "move(EAST)"
            id = "ee" >
            
     <input type = "button" 
            value = "West" 
-           onClick = "btn_West()"
+           onClick = "move(WEST)"
            id = "ww" >
       
     <input type="text" 
@@ -39,11 +41,10 @@
       
     <input type = "button"
            value = "Go"
-           onClick="clickAway()">
+           onClick="clickAway()"
+           id= "gg">
 
-	  <input type = "button"
-		       value = "Inventory"
-		       onClick = "displayItems()" >
+
 		<br>
 		<br>
 		       
@@ -56,7 +57,7 @@
       </a>
 	  </p>
 	  <br>
-	  <image src="MapProj4.jpg" width="550" height="450" alt="Map">   
+	<!--  <image src="MapProj4.jpg" width="550" height="450" alt="Map">   !-->
 	 
  </body>
 </html>
